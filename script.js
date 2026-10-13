@@ -1,0 +1,1 @@
+document.querySelector("form").addEventListener("submit",e=>{e.preventDefault();const s=document.querySelector("#status");s.className="alert alert-success mt-3";s.textContent="Biểu mẫu hợp lệ. Nội dung mẫu chưa được gửi tới máy chủ."});
